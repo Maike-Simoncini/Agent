@@ -1,0 +1,44 @@
+# --- Ambiente Virtual (Python) ---
+# Ignora a pasta do ambiente virtual criada no bootcamp
+.lab-dio/
+venv/
+env/
+ENV/
+.venv/
+
+# --- Configurações de Segurança (CRÍTICO) ---
+# Nunca subir ficheiros que contenham chaves de API reais
+.env
+.env.local
+.env.secret
+secrets.json
+
+# --- Cache do Python ---
+# Ficheiros compilados que o Python gera automaticamente
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Configurações de IDE ---
+# Ignora configurações específicas do seu editor (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs e Dados Temporários ---
+*.log
+temp/
+tmp/
+
+# --- Sistema Operacional ---
+# Ficheiros invisíveis do Windows e macOS
+Thumbs.db
+.DS_Store
+
+# --- Distribuição / Pacotes ---
+dist/
+build/
+*.egg-info/
