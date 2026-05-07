@@ -1,0 +1,16 @@
+# --- Core Framework ---
+adk>=0.1.0
+
+# --- Inteligência Artificial ---
+google-generativeai>=0.4.0
+
+# --- Integrações e Ferramentas ---
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+
+# --- Utilitários (Opcionais mas recomendados para seu perfil) ---
+# RapidFuzz para melhor tratamento de nomes de colunas no Trello
+rapidfuzz>=3.0.0
+# Se decidir usar o Streamlit para uma dashboard futura
+streamlit>=1.30.0 
